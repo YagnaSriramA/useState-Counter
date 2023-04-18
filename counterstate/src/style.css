@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+}
+
+
+.set-one{
+    display:flex;
+    justify-content: center;
+    align-items: baseline; 
+    margin-top:-40px;   
+}
+.set-two{
+    display:flex;
+    justify-content: center;
+    align-items: baseline; 
+    margin-top: 200px;
+}
+
+.ball-one button, .ball-three button{
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    background-color: rgb(109, 101, 101);
+    border:none;
+    margin:5px;
+    font-size:22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ball-two button{
+    width:120px;
+    height:120px;
+    border-radius:60px;
+    background-color: white;
+    border:none;
+    font-size:26px;
+    font-weight: bold;
+}
+.ball-one button{
+    /* margin-right:-40px; */
+    position:static;
+    z-index: 1;
+}
+/* .ball-three button{
+    margin-left:-40px;
+} */
