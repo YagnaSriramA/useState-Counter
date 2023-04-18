@@ -10,12 +10,12 @@ function Counter()
 
     function onplus()
     {
-        setCount(count+1)
+        setCount(prevCount => prevCount + 1)
     }
 
     function onminus()
     {
-        setCount(count-1)
+        setCount(prevCount => prevCount - 1)
     }
 
 
